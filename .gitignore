@@ -2,4 +2,4 @@
 __pycache__
 .idea
 .env
-crawl/data/*
+crawl/data/process.txt
