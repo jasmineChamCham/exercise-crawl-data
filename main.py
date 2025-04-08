@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/crawl/look-fantastic", methods = ['GET'])
 def crawl_look_fantastic():
-    # crawl_product_list()
+    crawl_product_list()
         
     while True:
         uncrawled_page_urls = get_uncrawled_page_urls()
